@@ -1,0 +1,42 @@
+print("task 1: sum of a list of intergers")
+int_list-input=("enter intergers seperated by spaces:")
+int_list=[ int(num) for num in int_list_input.split]
+total_sum=sum(inter_list)
+print(f"sum of the intergers:"{total_sum}\n")
+      
+print("task 2: Favorite books")
+favorite _books(
+"The claws of a killer"
+"I fell in love with a blind man"
+"Miss chubby"
+"The oracle"
+"Beauty and the beast"
+)
+print("My favoite books are:")
+for book in favorite_books:
+print(book)
+print()
+
+print("Task 3:personal information dictionary")
+person={}
+person["name"]=input("enter your name:")
+person["age"]=input("enter your age:")
+person["Favorite food"]=input("enter your favorite food:")
+print("Person Information Dictionary:")
+print(person)
+print()
+
+
+print("Task4: Common elements in two sets")
+set1_input=input("enter intergers for set 1,separated by spaces:")
+set2_input=input("enter intergers for set 2,separated by spaces:")
+set1=set(map(int, set1_input.split()))
+set2=set(map(int,set2_input.split()))
+common_elements = set1&set2
+print(f"common elements :{common_elements}\n")
+
+
+print("Task5:Words with odd numbers of characters")
+Words=["Apple","Banana","Orange","Pear","Peach","Grapes","Berries","Plum"]
+odd_length_words=[word for word in words if len(word) % 2 !=0]
+print(f"Words with odd number of characters:{odd_length_words}")
